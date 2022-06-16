@@ -346,13 +346,13 @@ private InvoiceLineDialog lineDialog;
 switch (e.getActionCommand()){
 case "CreateNewInvoice":
     
-    displayNewInvoiceDialog();
+//    displayNewInvoiceDialog();
     break;
 case "DeleteInvoice":
      deleteInvoice();
     break;
 case "CreateNewLine":
-    displayNewLineDialog();
+//    displayNewLineDialog();
     break;
     
 case "DeleteLine":
@@ -549,16 +549,16 @@ if (selectedRowIndex >= 0){
              System.out.println(header);
          }
      }
-private void displayNewInvoiceDialog() {
-headerDialog  = new InvoiceHeaderDialog(this);
-headerDialog.setVisible(true);
-       
-    }
-  private void displayNewLineDialog() {
-lineDialog = new InvoiceLineDialog(this);
-lineDialog.setVisible(true);
-
-    }
+//private void displayNewInvoiceDialog() {
+//headerDialog  = new InvoiceHeaderDialog(this);
+//headerDialog.setVisible(true);
+//
+//    }
+//  private void displayNewLineDialog() {
+//lineDialog = new InvoiceLineDialog(this);
+//lineDialog.setVisible(true);
+//
+//    }
     
     private void createInvCancel() {
 headerDialog.setVisible(false);
